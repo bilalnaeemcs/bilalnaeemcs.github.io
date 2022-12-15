@@ -3,7 +3,7 @@ title:            Bilal Naeem
 tagline:          'Personal blog'
 description:      'I plan on using this blog as a personal dev log'
 url:              https://hyde.getpoole.com
-baseurl:          http://martianbilal.github.io/martianbilal.github.io/
+baseurl:          http://martianbilal.github.io/
 paginate:         5
 
 # About and contact
