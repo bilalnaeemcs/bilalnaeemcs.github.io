@@ -4,10 +4,6 @@ title: Chrome Extension to change playback speed of videos on OneDrive
 ---
 
 
-<div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-</div>
-
 As a student preparing for fall finals, I found myself needing to review a large number of lecture videos. I wanted to watch them at a faster pace, but unfortunately, One Drive – where my recordings were stored – did not offer a 2x speed option.
 
 While searching online for a solution, I came across a piece of code on Reddit that allowed me to increase the playback speed of One Drive videos by running `document.querySelector("video").playbackRate = 2` in the console. While this worked, the process of opening the console and pasting the code every time I switched to a new video became tedious, especially since I had around 30 videos to get through.
