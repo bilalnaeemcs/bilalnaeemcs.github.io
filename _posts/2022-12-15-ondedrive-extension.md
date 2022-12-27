@@ -8,11 +8,15 @@ title: Chrome Extension to change playback speed of videos on OneDrive
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
 
-During the Fall Finals prep I had to revise a bunch of lecture videos, and I wanted to watch them at 2x speed. The only problem was that I had these lecture recordings on One Drive, which until now does not support the 2x speed button. So, I looked around online and somewhere on reddit I found a solution for my problem. By running `document.querySelector("video").playbackRate = 2`, I could increase the playback speed of the one drive video. However, I had to open the console and write paste and run this piece of code for each video, and it was getting a bit annoying considering I had something like 30 videos and I had to re-execute this piece everytime video page reloaded. 
+As a student preparing for fall finals, I found myself needing to review a large number of lecture videos. I wanted to watch them at a faster pace, but unfortunately, One Drive – where my recordings were stored – did not offer a 2x speed option.
 
-I decided to use an extension for running this code, and wrote the [twox_onedrive](https://github.com/martianbilal/twox_onedrive) extension for chrome, that allows you to change the playback speed of a video on One Drive and a bunch of other sites. 
+While searching online for a solution, I came across a piece of code on Reddit that allowed me to increase the playback speed of One Drive videos by running `document.querySelector("video").playbackRate = 2` in the console. While this worked, the process of opening the console and pasting the code every time I switched to a new video became tedious, especially since I had around 30 videos to get through.
 
-I made some slight changes to it and it now has a nice UI for increasing and decreasing the playback speed in chunks of 0.25. 
+To make the process more efficient, I decided to create a Chrome extension called [twox_onedrive](https://github.com/martianbilal/twox_onedrive/) that would allow me to easily adjust the playback speed of One Drive videos (and videos on other sites as well). I made some modifications to the original code, including the addition of a user interface that allows users to increase or decrease the playback speed in increments of 0.25.
 
-[Nouman](https://github.com/MNoumanAbbasi) also helped with some bug fixes and UI updates. 
+I received helpful bug fixes and UI updates from [Nouman](https://github.com/MNoumanAbbasi) as well. 
+
+Details on installation and usage are available in the github repo for [twox_onedrive](https://github.com/martianbilal/twox_onedrive/).
+
+I hope it helps you!
 
