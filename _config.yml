@@ -1,9 +1,13 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
 # Setup
 title:            Bilal Naeem
 tagline:          'Personal blog'
 description:      'I plan on using this blog as a personal dev log'
 url:              https://martianbilal.github.io
-baseurl:          
+baseurl:          /
 paginate:         5
 
 # About and contact
