@@ -2,8 +2,8 @@
 title:            Bilal Naeem
 tagline:          'Personal blog'
 description:      'I plan on using this blog as a personal dev log'
-url:              ''
-baseurl:          '/'
+url:              https://martianbilal.github.io
+baseurl:          /
 paginate:         5
 
 # About and contact
