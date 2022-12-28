@@ -6,7 +6,20 @@ tags: dev hacks build tips
 ---
 
 
-<div class="message">
-  This is a place holder for an artile on tips and tricks that I have discovered to efficiently and quickly build QEMU
-</div>
+Are you working on QEMU development and looking for ways to speed up your workflow? Here are some tips that can help you quickly modify and verify the correctness of QEMU files in Visual Studio Code(VSCode) and start QEMU virtual machines(VMs) from snapshots:
+
+## Compiling Individual QEMU Files in VSCode
+To save time, you can compile individual QEMU files instead of compiling all of them. This can then be turned into a VSCode task, based on the information in the c_cpp_properties.json file created by clang. For more details, check out this post on the [QEMU mailing list](https://www.mail-archive.com/qemu-devel@nongnu.org/msg806626.html).
+
+## Starting QEMU VMs from Snapshots
+Instead of starting each VM from scratch and going through the entire initialization process, which can take multiple seconds, you can use snapshots to skip the time-consuming initialization phase and start the VM in milliseconds. To do this, use the following QEMU command line option:
+
+```sh
+
+-loadvm snapshot_name
+
+```
+I hope these QEMU build tips help you speed up your development workflow!
+
+
 
