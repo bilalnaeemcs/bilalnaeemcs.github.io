@@ -1,6 +1,8 @@
 ---
 layout: post
 title: QEMU Build Tips 
+category: QEMU
+tags: dev hacks build tips
 ---
 
 

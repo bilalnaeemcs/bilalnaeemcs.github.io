@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Chrome Extension to change playback speed of videos on OneDrive
+categories: Misc
+tags: dev hacks projects
 ---
 
 
