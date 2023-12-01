@@ -21,7 +21,7 @@ Instead of starting each VM from scratch and going through the entire initializa
 ```
 I hope these QEMU build tips help you speed up your development workflow!
 
-_Edit: _
+_Edit:_
 `compile_commands.json` file for QEMU is present in the build directory. For clangd server to find it out, you must set the following options in the `.vscode/settings.json`: 
 
 ```json
