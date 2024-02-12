@@ -3,6 +3,5 @@ layout: page
 title: About
 ---
 
-Hi! I am Bilal Naeem. I am a Ph.D candidate at Purdue University working with RSS(Reliable Systems and Security Lab) at Purdue.
+Hey there! I'm Bilal Naeem 🚀, your go-to tech maestro 🎩✨. Armed with a Master’s from Purdue 🎓 and a Bachelor’s from LUMS, I’ve navigated through the realms of virtualization and software security, always with my faithful coffee ☕ in hand. Driven by an unending curiosity 🕵️‍♂️ for the mystical world of 0s and 1s, I've embarked on tech adventures that transform complexities into simplicity. Join me on this exhilarating journey 🌌, where every challenge is a puzzle 🧩 waiting to be solved!
 
-I will be using this space as my personal dev log sharing different different tips, hacks and experiences I gather while dabbling in the dark arts of Systems research.
